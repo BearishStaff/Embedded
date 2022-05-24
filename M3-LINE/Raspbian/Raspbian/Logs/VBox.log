@@ -1,0 +1,776 @@
+00:00:23.316086 VirtualBox VM 6.1.30 r148432 win.amd64 (Nov 22 2021 15:15:30) release log
+00:00:23.316090 Log opened 2022-05-14T15:53:54.644443600Z
+00:00:23.316091 Build Type: release
+00:00:23.316095 OS Product: Windows 10
+00:00:23.316097 OS Release: 10.0.18362
+00:00:23.316097 OS Service Pack: 
+00:00:23.398623 DMI Product Name: Latitude E7450
+00:00:23.403569 DMI Product Version: 
+00:00:23.403582 Firmware type: UEFI
+00:00:23.404038 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:23.404056 Host RAM: 8096MB (7.9GB) total, 2378MB (2.3GB) available
+00:00:23.404059 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe
+00:00:23.404060 Process ID: 1856
+00:00:23.404061 Package type: WINDOWS_64BITS_GENERIC
+00:00:23.405070 Installed Extension Packs:
+00:00:23.405577   Oracle VM VirtualBox Extension Pack (Version: 6.1.32 r149290; VRDE Module: VBoxVRDP)
+00:00:23.406458 Console: Machine state changed to 'Starting'
+00:00:23.406670 Qt version: 5.6.2
+00:00:23.562885 SUP: seg #0: R   0x00000000 LB 0x00001000
+00:00:23.562901 SUP: seg #1: R X 0x00001000 LB 0x0010b000
+00:00:23.562906 SUP: seg #2: RWX 0x0010c000 LB 0x00001000
+00:00:23.562909 SUP: seg #3: R   0x0010d000 LB 0x0004b000
+00:00:23.562913 SUP: seg #4: RW  0x00158000 LB 0x00013000
+00:00:23.562916 SUP: seg #5: R   0x0016b000 LB 0x0000f000
+00:00:23.562919 SUP: seg #6: RW  0x0017a000 LB 0x00003000
+00:00:23.562922 SUP: seg #7: R   0x0017d000 LB 0x0000b000
+00:00:23.562926 SUP: seg #8: RWX 0x00188000 LB 0x00002000
+00:00:23.562929 SUP: seg #9: R   0x0018a000 LB 0x00007000
+00:00:23.565282 SUP: Loaded VMMR0.r0 (C:\Program Files\Oracle\VirtualBox\VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:23.565304 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:23.565308 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VMMR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:23.566681 Guest OS type: 'Debian_64'
+00:00:23.567352 fHMForced=true - No raw-mode support in this build!
+00:00:23.571164 File system of 'D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian\Snapshots' (snapshots) is unknown
+00:00:23.571175 File system of 'D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian\Raspbian.vdi' is ntfs
+00:00:23.592065 Shared Clipboard: Service loaded
+00:00:23.592077 Shared Clipboard: Mode: Off
+00:00:23.592140 Shared Clipboard: Service running in normal mode
+00:00:23.605906 Drag and drop service loaded
+00:00:23.605927 Drag and drop mode: Off
+00:00:23.625774 ************************* CFGM dump *************************
+00:00:23.625776 [/] (level 0)
+00:00:23.625779   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:23.625781   EnablePAE         <integer> = 0x0000000000000000 (0)
+00:00:23.625782   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:23.625782   MemBalloonSize    <integer> = 0x0000000000000000 (0)
+00:00:23.625783   Name              <string>  = "Raspbian" (cb=9)
+00:00:23.625785   NumCPUs           <integer> = 0x0000000000000001 (1)
+00:00:23.625785   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:23.625786   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:23.625788   RamSize           <integer> = 0x0000000080000000 (2 147 483 648, 2 048 MB)
+00:00:23.625789   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:23.625790   UUID              <bytes>   = "ca c7 c5 e1 b6 b8 bf 44 8d af 5f b7 bb ad 8c bf" (cb=16)
+00:00:23.625797 
+00:00:23.625797 [/CPUM/] (level 1)
+00:00:23.625799   GuestCpuName       <string>  = "host" (cb=5)
+00:00:23.625799   NestedHWVirt       <integer> = 0x0000000000000000 (0)
+00:00:23.625800   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:23.625801   SpecCtrl           <integer> = 0x0000000000000000 (0)
+00:00:23.625801 
+00:00:23.625802 [/CPUM/IsaExts/] (level 2)
+00:00:23.625803 
+00:00:23.625803 [/DBGC/] (level 1)
+00:00:23.625805   GlobalInitScript <string>  = "C:\Users\ADMIN\.VirtualBox/dbgc-init" (cb=37)
+00:00:23.625806   HistoryFile      <string>  = "C:\Users\ADMIN\.VirtualBox/dbgc-history" (cb=40)
+00:00:23.625809   LocalInitScript  <string>  = "D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian/dbgc-init" (cb=64)
+00:00:23.625811 
+00:00:23.625812 [/DBGF/] (level 1)
+00:00:23.625813   Path <string>  = "D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian/debug/;D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian/;cache*D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian/dbgcache/;C:\Users\ADMIN\" (cb=202)
+00:00:23.625815 
+00:00:23.625815 [/Devices/] (level 1)
+00:00:23.625816 
+00:00:23.625817 [/Devices/8237A/] (level 2)
+00:00:23.625818 
+00:00:23.625818 [/Devices/8237A/0/] (level 3)
+00:00:23.625820   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.625821 
+00:00:23.625821 [/Devices/GIMDev/] (level 2)
+00:00:23.625822 
+00:00:23.625823 [/Devices/GIMDev/0/] (level 3)
+00:00:23.625824   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.625825 
+00:00:23.625825 [/Devices/VMMDev/] (level 2)
+00:00:23.625827 
+00:00:23.625827 [/Devices/VMMDev/0/] (level 3)
+00:00:23.625829   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.625830   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:23.625831   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.625832   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.625834 
+00:00:23.625834 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:23.625836   GuestCoreDumpDir <string>  = "D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian\Snapshots" (cb=64)
+00:00:23.625837 
+00:00:23.625837 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:23.625839   Driver <string>  = "HGCM" (cb=5)
+00:00:23.625840 
+00:00:23.625840 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:23.625842   Object <integer> = 0x0000000006db5fd0 (115 040 208)
+00:00:23.625844 
+00:00:23.625844 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:23.625846   Driver <string>  = "MainStatus" (cb=11)
+00:00:23.625847 
+00:00:23.625847 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:23.625849   First   <integer> = 0x0000000000000000 (0)
+00:00:23.625850   Last    <integer> = 0x0000000000000000 (0)
+00:00:23.625851   papLeds <integer> = 0x0000000001b476e8 (28 604 136)
+00:00:23.625853 
+00:00:23.625853 [/Devices/acpi/] (level 2)
+00:00:23.625855 
+00:00:23.625855 [/Devices/acpi/0/] (level 3)
+00:00:23.625857   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.625858   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:23.625859   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.625860   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.625862 
+00:00:23.625862 [/Devices/acpi/0/Config/] (level 4)
+00:00:23.625864   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:23.625865   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:23.625867   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:23.625868   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:23.625869   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:23.625871   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:23.625872   NumCPUs             <integer> = 0x0000000000000001 (1)
+00:00:23.625874   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:23.625875   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:23.625876   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:23.625877   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:23.625878   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:23.625880   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:23.625881   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:23.625882   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:23.625884   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:23.625885   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:23.625886   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:23.625888 
+00:00:23.625888 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:23.625890   Driver <string>  = "ACPIHost" (cb=9)
+00:00:23.625891 
+00:00:23.625892 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:23.625893 
+00:00:23.625894 [/Devices/ahci/] (level 2)
+00:00:23.625895 
+00:00:23.625895 [/Devices/ahci/0/] (level 3)
+00:00:23.625897   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.625899   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:23.625900   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.625901   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.625903 
+00:00:23.625903 [/Devices/ahci/0/Config/] (level 4)
+00:00:23.625905   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:23.625906   PortCount <integer> = 0x0000000000000001 (1)
+00:00:23.625907 
+00:00:23.625907 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:23.625909   Hotpluggable <integer> = 0x0000000000000000 (0)
+00:00:23.625910 
+00:00:23.625911 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:23.625913   Driver <string>  = "VD" (cb=3)
+00:00:23.625917 
+00:00:23.625917 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:23.625920   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:23.625921   Format     <string>  = "VDI" (cb=4)
+00:00:23.625922   Mountable  <integer> = 0x0000000000000000 (0)
+00:00:23.625923   Path       <string>  = "D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian\Raspbian.vdi" (cb=67)
+00:00:23.625924   Type       <string>  = "HardDisk" (cb=9)
+00:00:23.625926   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:23.625927 
+00:00:23.625927 [/Devices/ahci/0/LUN#0/Config/Plugins/] (level 6)
+00:00:23.625929 
+00:00:23.625930 [/Devices/ahci/0/LUN#0/Config/Plugins/VDPluginCrypt/] (level 7)
+00:00:23.625932   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VDPluginCrypt.DLL" (cb=114)
+00:00:23.625934 
+00:00:23.625934 [/Devices/ahci/0/LUN#0/Config/VDConfig/] (level 6)
+00:00:23.625936   AllocationBlockSize <string>  = "1048576" (cb=8)
+00:00:23.625937 
+00:00:23.625937 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:23.625939   Driver <string>  = "MainStatus" (cb=11)
+00:00:23.625940 
+00:00:23.625940 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:23.625942   DeviceInstance        <string>  = "ahci/0" (cb=7)
+00:00:23.625943   First                 <integer> = 0x0000000000000000 (0)
+00:00:23.625945   Last                  <integer> = 0x0000000000000000 (0)
+00:00:23.625946   pConsole              <integer> = 0x0000000001b462f0 (28 599 024)
+00:00:23.625948   papLeds               <integer> = 0x0000000001b46af0 (28 601 072)
+00:00:23.625950   pmapMediumAttachments <integer> = 0x0000000001b47708 (28 604 168)
+00:00:23.625952 
+00:00:23.625952 [/Devices/apic/] (level 2)
+00:00:23.625954 
+00:00:23.625954 [/Devices/apic/0/] (level 3)
+00:00:23.625956   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.625957 
+00:00:23.625957 [/Devices/apic/0/Config/] (level 4)
+00:00:23.625959   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:23.625960   Mode    <integer> = 0x0000000000000003 (3)
+00:00:23.625961   NumCPUs <integer> = 0x0000000000000001 (1)
+00:00:23.625962 
+00:00:23.625962 [/Devices/e1000/] (level 2)
+00:00:23.625964 
+00:00:23.625964 [/Devices/e1000/0/] (level 3)
+00:00:23.625966   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.625967   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:23.625968   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.625969   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.625970 
+00:00:23.625971 [/Devices/e1000/0/Config/] (level 4)
+00:00:23.625973   AdapterType    <integer> = 0x0000000000000000 (0)
+00:00:23.625974   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:23.625975   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:23.625976   MAC            <bytes>   = "08 00 27 d2 cf f1" (cb=6)
+00:00:23.625979 
+00:00:23.625980 [/Devices/e1000/0/LUN#0/] (level 4)
+00:00:23.625981   Driver <string>  = "NAT" (cb=4)
+00:00:23.625982 
+00:00:23.625983 [/Devices/e1000/0/LUN#0/Config/] (level 5)
+00:00:23.625984   AliasMode       <integer> = 0x0000000000000000 (0)
+00:00:23.625986   BootFile        <string>  = "Raspbian.pxe" (cb=13)
+00:00:23.625987   DNSProxy        <integer> = 0x0000000000000000 (0)
+00:00:23.625988   Network         <string>  = "10.0.2.0/24" (cb=12)
+00:00:23.625989   PassDomain      <integer> = 0x0000000000000001 (1)
+00:00:23.625991   TFTPPrefix      <string>  = "C:\Users\ADMIN\.VirtualBox\TFTP" (cb=32)
+00:00:23.625992   UseHostResolver <integer> = 0x0000000000000000 (0)
+00:00:23.625993 
+00:00:23.625993 [/Devices/e1000/0/LUN#999/] (level 4)
+00:00:23.625995   Driver <string>  = "MainStatus" (cb=11)
+00:00:23.625996 
+00:00:23.625996 [/Devices/e1000/0/LUN#999/Config/] (level 5)
+00:00:23.625998   First   <integer> = 0x0000000000000000 (0)
+00:00:23.625999   Last    <integer> = 0x0000000000000000 (0)
+00:00:23.626001   papLeds <integer> = 0x0000000001b475c8 (28 603 848)
+00:00:23.626002 
+00:00:23.626003 [/Devices/i8254/] (level 2)
+00:00:23.626004 
+00:00:23.626004 [/Devices/i8254/0/] (level 3)
+00:00:23.626006 
+00:00:23.626006 [/Devices/i8254/0/Config/] (level 4)
+00:00:23.626008 
+00:00:23.626008 [/Devices/i8259/] (level 2)
+00:00:23.626009 
+00:00:23.626010 [/Devices/i8259/0/] (level 3)
+00:00:23.626011   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.626012 
+00:00:23.626013 [/Devices/i8259/0/Config/] (level 4)
+00:00:23.626014 
+00:00:23.626015 [/Devices/ichac97/] (level 2)
+00:00:23.626016 
+00:00:23.626016 [/Devices/ichac97/0/] (level 3)
+00:00:23.626018   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.626019   PCIDeviceNo   <integer> = 0x0000000000000005 (5)
+00:00:23.626021   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.626022   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.626023 
+00:00:23.626023 [/Devices/ichac97/0/AudioConfig/] (level 4)
+00:00:23.626025 
+00:00:23.626026 [/Devices/ichac97/0/Config/] (level 4)
+00:00:23.626028   Codec        <string>  = "AD1980" (cb=7)
+00:00:23.626029   DebugEnabled <integer> = 0x0000000000000000 (0)
+00:00:23.626030 
+00:00:23.626030 [/Devices/ichac97/0/LUN#0/] (level 4)
+00:00:23.626032   Driver <string>  = "AUDIO" (cb=6)
+00:00:23.626033 
+00:00:23.626034 [/Devices/ichac97/0/LUN#0/AttachedDriver/] (level 5)
+00:00:23.626036   Driver <string>  = "HostAudioWas" (cb=13)
+00:00:23.626037 
+00:00:23.626037 [/Devices/ichac97/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:23.626040   VmName <string>  = "Raspbian" (cb=9)
+00:00:23.626041   VmUuid <string>  = "e1c5c7ca-b8b6-44bf-8daf-5fb7bbad8cbf" (cb=37)
+00:00:23.626042 
+00:00:23.626042 [/Devices/ichac97/0/LUN#0/Config/] (level 5)
+00:00:23.626044   DriverName    <string>  = "HostAudioWas" (cb=13)
+00:00:23.626045   InputEnabled  <integer> = 0x0000000000000000 (0)
+00:00:23.626046   OutputEnabled <integer> = 0x0000000000000001 (1)
+00:00:23.626047 
+00:00:23.626048 [/Devices/ichac97/0/LUN#1/] (level 4)
+00:00:23.626050   Driver <string>  = "AUDIO" (cb=6)
+00:00:23.626051 
+00:00:23.626051 [/Devices/ichac97/0/LUN#2/] (level 4)
+00:00:23.626053   Driver <string>  = "AUDIO" (cb=6)
+00:00:23.626054 
+00:00:23.626054 [/Devices/ioapic/] (level 2)
+00:00:23.626055 
+00:00:23.626056 [/Devices/ioapic/0/] (level 3)
+00:00:23.626057   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.626058 
+00:00:23.626058 [/Devices/ioapic/0/Config/] (level 4)
+00:00:23.626060   NumCPUs <integer> = 0x0000000000000001 (1)
+00:00:23.626061 
+00:00:23.626061 [/Devices/mc146818/] (level 2)
+00:00:23.626063 
+00:00:23.626063 [/Devices/mc146818/0/] (level 3)
+00:00:23.626064 
+00:00:23.626065 [/Devices/mc146818/0/Config/] (level 4)
+00:00:23.626067   UseUTC <integer> = 0x0000000000000001 (1)
+00:00:23.626068 
+00:00:23.626068 [/Devices/parallel/] (level 2)
+00:00:23.626069 
+00:00:23.626070 [/Devices/pcarch/] (level 2)
+00:00:23.626071 
+00:00:23.626071 [/Devices/pcarch/0/] (level 3)
+00:00:23.626072   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.626073 
+00:00:23.626074 [/Devices/pcarch/0/Config/] (level 4)
+00:00:23.626075 
+00:00:23.626076 [/Devices/pcbios/] (level 2)
+00:00:23.626077 
+00:00:23.626077 [/Devices/pcbios/0/] (level 3)
+00:00:23.626079   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.626080 
+00:00:23.626080 [/Devices/pcbios/0/Config/] (level 4)
+00:00:23.626082   APIC               <integer> = 0x0000000000000001 (1)
+00:00:23.626084   BootDevice0        <string>  = "FLOPPY" (cb=7)
+00:00:23.626085   BootDevice1        <string>  = "DVD" (cb=4)
+00:00:23.626086   BootDevice2        <string>  = "IDE" (cb=4)
+00:00:23.626087   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:23.626088   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:23.626089   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:23.626090   IOAPIC             <integer> = 0x0000000000000001 (1)
+00:00:23.626091   LanBootRom         <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\PXE-Intel.rom" (cb=100)
+00:00:23.626093   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:23.626094   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:23.626096   NumCPUs            <integer> = 0x0000000000000001 (1)
+00:00:23.626097   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:23.626099   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:23.626099   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:23.626101   UUID               <bytes>   = "ca c7 c5 e1 b6 b8 bf 44 8d af 5f b7 bb ad 8c bf" (cb=16)
+00:00:23.626105   UuidLe             <integer> = 0x0000000000000001 (1)
+00:00:23.626106 
+00:00:23.626107 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:23.626108 
+00:00:23.626109 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:23.626111   NIC           <integer> = 0x0000000000000000 (0)
+00:00:23.626112   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.626113   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:23.626114   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.626115 
+00:00:23.626116 [/Devices/pci/] (level 2)
+00:00:23.626117 
+00:00:23.626117 [/Devices/pci/0/] (level 3)
+00:00:23.626119   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.626120 
+00:00:23.626120 [/Devices/pci/0/Config/] (level 4)
+00:00:23.626122   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:23.626123 
+00:00:23.626123 [/Devices/pcibridge/] (level 2)
+00:00:23.626124 
+00:00:23.626125 [/Devices/pckbd/] (level 2)
+00:00:23.626126 
+00:00:23.626126 [/Devices/pckbd/0/] (level 3)
+00:00:23.626128   Trusted <integer> = 0x0000000000000001 (1)
+00:00:23.626129 
+00:00:23.626129 [/Devices/pckbd/0/Config/] (level 4)
+00:00:23.626131 
+00:00:23.626131 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:23.626133   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:23.626134 
+00:00:23.626134 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:23.626136   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:23.626137 
+00:00:23.626138 [/Devices/pckbd/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:23.626140   Object <integer> = 0x0000000001982390 (26 747 792)
+00:00:23.626141 
+00:00:23.626142 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:23.626144   QueueSize <integer> = 0x0000000000000040 (64)
+00:00:23.626145 
+00:00:23.626145 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:23.626167   Driver <string>  = "MouseQueue" (cb=11)
+00:00:23.626169 
+00:00:23.626170 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:23.626172   Driver <string>  = "MainMouse" (cb=10)
+00:00:23.626173 
+00:00:23.626173 [/Devices/pckbd/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:23.626176   Object <integer> = 0x0000000001b20d20 (28 445 984)
+00:00:23.626177 
+00:00:23.626178 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:23.626180   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:23.626181 
+00:00:23.626181 [/Devices/pcnet/] (level 2)
+00:00:23.626183 
+00:00:23.626183 [/Devices/piix3ide/] (level 2)
+00:00:23.626185 
+00:00:23.626185 [/Devices/piix3ide/0/] (level 3)
+00:00:23.626187   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.626188   PCIDeviceNo   <integer> = 0x0000000000000001 (1)
+00:00:23.626189   PCIFunctionNo <integer> = 0x0000000000000001 (1)
+00:00:23.626190   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.626192 
+00:00:23.626192 [/Devices/piix3ide/0/Config/] (level 4)
+00:00:23.626194   Type <string>  = "PIIX4" (cb=6)
+00:00:23.626195 
+00:00:23.626196 [/Devices/piix3ide/0/LUN#2/] (level 4)
+00:00:23.626197   Driver <string>  = "VD" (cb=3)
+00:00:23.626198 
+00:00:23.626199 [/Devices/piix3ide/0/LUN#2/Config/] (level 5)
+00:00:23.626201   EmptyDrive <integer> = 0x0000000000000001 (1)
+00:00:23.626202   Mountable  <integer> = 0x0000000000000001 (1)
+00:00:23.626203   Type       <string>  = "DVD" (cb=4)
+00:00:23.626204 
+00:00:23.626205 [/Devices/piix3ide/0/LUN#999/] (level 4)
+00:00:23.626206   Driver <string>  = "MainStatus" (cb=11)
+00:00:23.626207 
+00:00:23.626207 [/Devices/piix3ide/0/LUN#999/Config/] (level 5)
+00:00:23.626210   DeviceInstance        <string>  = "piix3ide/0" (cb=11)
+00:00:23.626211   First                 <integer> = 0x0000000000000000 (0)
+00:00:23.626212   Last                  <integer> = 0x0000000000000003 (3)
+00:00:23.626214   pConsole              <integer> = 0x0000000001b462f0 (28 599 024)
+00:00:23.626216   papLeds               <integer> = 0x0000000001b46ad0 (28 601 040)
+00:00:23.626217   pmapMediumAttachments <integer> = 0x0000000001b47708 (28 604 168)
+00:00:23.626219 
+00:00:23.626219 [/Devices/serial/] (level 2)
+00:00:23.626220 
+00:00:23.626221 [/Devices/usb-ehci/] (level 2)
+00:00:23.626222 
+00:00:23.626223 [/Devices/usb-ehci/0/] (level 3)
+00:00:23.626225   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.626226   PCIDeviceNo   <integer> = 0x000000000000000b (11)
+00:00:23.626227   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.626228   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.626229 
+00:00:23.626230 [/Devices/usb-ehci/0/Config/] (level 4)
+00:00:23.626232 
+00:00:23.626232 [/Devices/usb-ehci/0/LUN#0/] (level 4)
+00:00:23.626234   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:23.626235 
+00:00:23.626235 [/Devices/usb-ehci/0/LUN#0/Config/] (level 5)
+00:00:23.626237 
+00:00:23.626237 [/Devices/usb-ehci/0/LUN#999/] (level 4)
+00:00:23.626239   Driver <string>  = "MainStatus" (cb=11)
+00:00:23.626240 
+00:00:23.626240 [/Devices/usb-ehci/0/LUN#999/Config/] (level 5)
+00:00:23.626242   First   <integer> = 0x0000000000000000 (0)
+00:00:23.626243   Last    <integer> = 0x0000000000000000 (0)
+00:00:23.626245   papLeds <integer> = 0x0000000001b476f8 (28 604 152)
+00:00:23.626246 
+00:00:23.626246 [/Devices/usb-ohci/] (level 2)
+00:00:23.626248 
+00:00:23.626248 [/Devices/usb-ohci/0/] (level 3)
+00:00:23.626250   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.626252   PCIDeviceNo   <integer> = 0x0000000000000006 (6)
+00:00:23.626253   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.626254   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.626255 
+00:00:23.626256 [/Devices/usb-ohci/0/Config/] (level 4)
+00:00:23.626257 
+00:00:23.626258 [/Devices/usb-ohci/0/LUN#0/] (level 4)
+00:00:23.626259   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:23.626260 
+00:00:23.626260 [/Devices/usb-ohci/0/LUN#0/Config/] (level 5)
+00:00:23.626263 
+00:00:23.626263 [/Devices/usb-ohci/0/LUN#999/] (level 4)
+00:00:23.626265   Driver <string>  = "MainStatus" (cb=11)
+00:00:23.626267 
+00:00:23.626267 [/Devices/usb-ohci/0/LUN#999/Config/] (level 5)
+00:00:23.626269   First   <integer> = 0x0000000000000000 (0)
+00:00:23.626270   Last    <integer> = 0x0000000000000000 (0)
+00:00:23.626271   papLeds <integer> = 0x0000000001b476f0 (28 604 144)
+00:00:23.626273 
+00:00:23.626273 [/Devices/vga/] (level 2)
+00:00:23.626274 
+00:00:23.626275 [/Devices/vga/0/] (level 3)
+00:00:23.626276   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:23.626278   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:23.626279   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:23.626280   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:23.626281 
+00:00:23.626282 [/Devices/vga/0/Config/] (level 4)
+00:00:23.626284   3DEnabled          <integer> = 0x0000000000000000 (0)
+00:00:23.626285   CustomVideoModes   <integer> = 0x0000000000000000 (0)
+00:00:23.626286   FadeIn             <integer> = 0x0000000000000001 (1)
+00:00:23.626288   FadeOut            <integer> = 0x0000000000000001 (1)
+00:00:23.626289   HeightReduction    <integer> = 0x0000000000000000 (0)
+00:00:23.626290   LogoFile           <string>  = "" (cb=1)
+00:00:23.626291   LogoTime           <integer> = 0x0000000000000000 (0)
+00:00:23.626293   MonitorCount       <integer> = 0x0000000000000001 (1)
+00:00:23.626294   ShowBootMenu       <integer> = 0x0000000000000002 (2)
+00:00:23.626295   VMSVGA3dEnabled    <integer> = 0x0000000000000000 (0)
+00:00:23.626296   VMSVGAEnabled      <integer> = 0x0000000000000001 (1)
+00:00:23.626297   VMSVGAPciBarLayout <integer> = 0x0000000000000001 (1)
+00:00:23.626299   VMSVGAPciId        <integer> = 0x0000000000000001 (1)
+00:00:23.626300   VRamSize           <integer> = 0x0000000001000000 (16 777 216, 16 MB)
+00:00:23.626302 
+00:00:23.626302 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:23.626304   Driver <string>  = "MainDisplay" (cb=12)
+00:00:23.626305 
+00:00:23.626305 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:23.626307   Object <integer> = 0x0000000001b8df70 (28 893 040)
+00:00:23.626309 
+00:00:23.626309 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:23.626311   Driver <string>  = "MainStatus" (cb=11)
+00:00:23.626312 
+00:00:23.626312 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:23.626314   First   <integer> = 0x0000000000000000 (0)
+00:00:23.626315   Last    <integer> = 0x0000000000000000 (0)
+00:00:23.626316   papLeds <integer> = 0x0000000001b47700 (28 604 160)
+00:00:23.626317 
+00:00:23.626318 [/Devices/virtio-net/] (level 2)
+00:00:23.626319 
+00:00:23.626319 [/EM/] (level 1)
+00:00:23.626321   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:23.626322 
+00:00:23.626322 [/GIM/] (level 1)
+00:00:23.626324   Provider <string>  = "KVM" (cb=4)
+00:00:23.626325 
+00:00:23.626325 [/HM/] (level 1)
+00:00:23.626327   64bitEnabled            <integer> = 0x0000000000000001 (1)
+00:00:23.626329   EnableLargePages        <integer> = 0x0000000000000001 (1)
+00:00:23.626330   EnableNestedPaging      <integer> = 0x0000000000000001 (1)
+00:00:23.626332   EnableUX                <integer> = 0x0000000000000001 (1)
+00:00:23.626333   EnableVPID              <integer> = 0x0000000000000001 (1)
+00:00:23.626335   Exclusive               <integer> = 0x0000000000000000 (0)
+00:00:23.626336   HMForced                <integer> = 0x0000000000000001 (1)
+00:00:23.626337   IBPBOnVMEntry           <integer> = 0x0000000000000000 (0)
+00:00:23.626339   IBPBOnVMExit            <integer> = 0x0000000000000000 (0)
+00:00:23.626340   L1DFlushOnSched         <integer> = 0x0000000000000001 (1)
+00:00:23.626342   L1DFlushOnVMEntry       <integer> = 0x0000000000000000 (0)
+00:00:23.626343   LovelyMesaDrvWorkaround <integer> = 0x0000000000000001 (1)
+00:00:23.626344   MDSClearOnSched         <integer> = 0x0000000000000001 (1)
+00:00:23.626345   MDSClearOnVMEntry       <integer> = 0x0000000000000000 (0)
+00:00:23.626346   SpecCtrlByHost          <integer> = 0x0000000000000000 (0)
+00:00:23.626348   UseNEMInstead           <integer> = 0x0000000000000000 (0)
+00:00:23.626351 
+00:00:23.626351 [/MM/] (level 1)
+00:00:23.626353   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:23.626354 
+00:00:23.626354 [/NEM/] (level 1)
+00:00:23.626355   Allow64BitGuests        <integer> = 0x0000000000000001 (1)
+00:00:23.626357   LovelyMesaDrvWorkaround <integer> = 0x0000000000000001 (1)
+00:00:23.626358 
+00:00:23.626359 [/PDM/] (level 1)
+00:00:23.626360 
+00:00:23.626360 [/PDM/AsyncCompletion/] (level 2)
+00:00:23.626362 
+00:00:23.626362 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:23.626385 
+00:00:23.626386 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:23.626388 
+00:00:23.626389 [/PDM/BlkCache/] (level 2)
+00:00:23.626390   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5 MB)
+00:00:23.626392 
+00:00:23.626393 [/PDM/Devices/] (level 2)
+00:00:23.626394 
+00:00:23.626394 [/PDM/Devices/VBoxEhci/] (level 3)
+00:00:23.626396   Path         <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxEhciR3.DLL" (cb=111)
+00:00:23.626398   R0SearchPath <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64" (cb=96)
+00:00:23.626399 
+00:00:23.626400 [/PDM/Devices/VBoxNvme/] (level 3)
+00:00:23.626402   Path         <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxNvmeR3.DLL" (cb=111)
+00:00:23.626403   R0SearchPath <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64" (cb=96)
+00:00:23.626405 
+00:00:23.626405 [/PDM/Drivers/] (level 2)
+00:00:23.626406 
+00:00:23.626407 [/PDM/Drivers/DrvHostWebcam/] (level 3)
+00:00:23.626409   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL" (cb=115)
+00:00:23.626411 
+00:00:23.626411 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:23.626415   Path <string>  = "VBoxC" (cb=6)
+00:00:23.626416 
+00:00:23.626417 [/PDM/NetworkShaper/] (level 2)
+00:00:23.626418 
+00:00:23.626418 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:23.626420 
+00:00:23.626420 [/PDM/USB/] (level 2)
+00:00:23.626421 
+00:00:23.626422 [/PDM/USB/VBoxUsbCardReader/] (level 3)
+00:00:23.626424   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxUsbCardReaderR3.DLL" (cb=120)
+00:00:23.626425 
+00:00:23.626426 [/PDM/USB/VBoxUsbWebcam/] (level 3)
+00:00:23.626427   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxUsbWebcamR3.DLL" (cb=116)
+00:00:23.626428 
+00:00:23.626429 [/TM/] (level 1)
+00:00:23.626430   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:23.626431 
+00:00:23.626431 [/USB/] (level 1)
+00:00:23.626433 
+00:00:23.626433 [/USB/HidMouse/] (level 2)
+00:00:23.626434 
+00:00:23.626434 [/USB/HidMouse/0/] (level 3)
+00:00:23.626436 
+00:00:23.626436 [/USB/HidMouse/0/Config/] (level 4)
+00:00:23.626438   Mode <string>  = "absolute" (cb=9)
+00:00:23.626439 
+00:00:23.626439 [/USB/HidMouse/0/LUN#0/] (level 4)
+00:00:23.626441   Driver <string>  = "MouseQueue" (cb=11)
+00:00:23.626441 
+00:00:23.626442 [/USB/HidMouse/0/LUN#0/AttachedDriver/] (level 5)
+00:00:23.626446   Driver <string>  = "MainMouse" (cb=10)
+00:00:23.626448 
+00:00:23.626448 [/USB/HidMouse/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:23.626450   Object <integer> = 0x0000000001b20d20 (28 445 984)
+00:00:23.626451 
+00:00:23.626451 [/USB/HidMouse/0/LUN#0/Config/] (level 5)
+00:00:23.626452   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:23.626453 
+00:00:23.626454 [/USB/USBProxy/] (level 2)
+00:00:23.626455 
+00:00:23.626455 [/USB/USBProxy/GlobalConfig/] (level 3)
+00:00:23.626456 
+00:00:23.626457 ********************* End of CFGM dump **********************
+00:00:23.626598 HM: HMR3Init: VT-x w/ nested paging and unrestricted guest execution hw support
+00:00:23.626814 MM: cbHyperHeap=0x200000 (2097152)
+00:00:23.630885 CPUM: fXStateHostMask=0x7; initial: 0x7; host XCR0=0x7
+00:00:23.631530 CPUM: Matched host CPU INTEL 0x6/0x3d/0x4 Intel_Core7_Broadwell with CPU DB entry 'Intel Core i7-5600U' (INTEL 0x6/0x3d/0x4 Intel_Core7_Broadwell)
+00:00:23.631574 CPUM: MXCSR_MASK=0xffff (host: 0xffff)
+00:00:23.631584 CPUM: Microcode revision 0x0000002F
+00:00:23.631599 CPUM: MSR/CPUID reconciliation insert: 0x0000010b IA32_FLUSH_CMD
+00:00:23.631772 PGM: Host paging mode: AMD64+NX
+00:00:23.631793 PGM: PGMPool: cMaxPages=1280 (u64MaxPages=1058)
+00:00:23.631798 PGM: pgmR3PoolInit: cMaxPages=0x500 cMaxUsers=0xa00 cMaxPhysExts=0xa00 fCacheEnable=true 
+00:00:23.639701 TM: GIP - u32Mode=3 (Invariant) u32UpdateHz=93 u32UpdateIntervalNS=10739300 enmUseTscDelta=2 (Practically Zero) fGetGipCpu=0x1b cCpus=4
+00:00:23.639722 TM: GIP - u64CpuHz=2 594 000 089 (0x9a9d4cd9)  SUPGetCpuHzFromGip => 2 594 000 089
+00:00:23.639775 TM: GIP - CPU: iCpuSet=0x0 idCpu=0x0 idApic=0x0 iGipCpu=0x1 i64TSCDelta=0 enmState=3 u64CpuHz=2594004122(*) cErrors=0
+00:00:23.639783 TM: GIP - CPU: iCpuSet=0x1 idCpu=0x1 idApic=0x1 iGipCpu=0x3 i64TSCDelta=0 enmState=3 u64CpuHz=2593999871(*) cErrors=0
+00:00:23.639787 TM: GIP - CPU: iCpuSet=0x2 idCpu=0x2 idApic=0x2 iGipCpu=0x2 i64TSCDelta=0 enmState=3 u64CpuHz=2593999007(*) cErrors=0
+00:00:23.639790 TM: GIP - CPU: iCpuSet=0x3 idCpu=0x3 idApic=0x3 iGipCpu=0x0 i64TSCDelta=0 enmState=3 u64CpuHz=2594000089(*) cErrors=0
+00:00:23.639841 TM: cTSCTicksPerSecond=2 594 000 089 (0x9a9d4cd9) enmTSCMode=3 (Dynamic)
+00:00:23.639844 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:23.640504 EMR3Init: fIemExecutesAll=false fGuruOnTripleFault=true 
+00:00:23.640741 IEM: TargetCpu=CURRENT, Microarch=Intel_Core7_Broadwell
+00:00:23.640846 GIM: Using provider 'KVM' (Implementation version: 0)
+00:00:23.640856 CPUM: SetGuestCpuIdFeature: Enabled Hypervisor Present bit
+00:00:23.640944 AIOMgr: Default manager type is 'Async'
+00:00:23.640948 AIOMgr: Default file backend is 'NonBuffered'
+00:00:23.641140 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:23.641147 BlkCache: Cache commit interval is 10000 ms
+00:00:23.641150 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:24.435207 PcBios: [SMP] BIOS with 1 CPUs
+00:00:24.435234 PcBios: Using the 386+ BIOS image.
+00:00:24.435292 PcBios: MPS table at 000e1300
+00:00:24.438825 PcBios: Using LAN ROM 'C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\PXE-Intel.rom' with a size of 0xc000 bytes
+00:00:24.438933 PcBios: fCheckShutdownStatusForSoftReset=true   fClearShutdownStatusOnHardReset=true 
+00:00:24.473095 SUP: seg #0: R   0x00000000 LB 0x00001000
+00:00:24.473110 SUP: seg #1: R X 0x00001000 LB 0x0001e000
+00:00:24.473114 SUP: seg #2: R   0x0001f000 LB 0x0000c000
+00:00:24.473117 SUP: seg #3: RW  0x0002b000 LB 0x00001000
+00:00:24.473120 SUP: seg #4: R   0x0002c000 LB 0x00002000
+00:00:24.473123 SUP: seg #5: RW  0x0002e000 LB 0x00001000
+00:00:24.473126 SUP: seg #6: R   0x0002f000 LB 0x00001000
+00:00:24.473129 SUP: seg #7: RWX 0x00030000 LB 0x00001000
+00:00:24.473133 SUP: seg #8: R   0x00031000 LB 0x00002000
+00:00:24.473215 SUP: Loaded VBoxDDR0.r0 (C:\Program Files\Oracle\VirtualBox\VBoxDDR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:24.473221 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VBoxDDR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:24.473503 CPUM: SetGuestCpuIdFeature: Enabled xAPIC
+00:00:24.473510 CPUM: SetGuestCpuIdFeature: Enabled x2APIC
+00:00:24.473758 IOAPIC: Using implementation 2.0! Chipset type ICH9
+00:00:24.473832 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:24.474068 VMMDev: cbDefaultBudget: 132 650 368 (7e81580)
+00:00:24.490544 Shared Folders service loaded
+00:00:24.504253 Guest Control service loaded
+00:00:24.529698 VGA: Using the 386+ BIOS image.
+00:00:24.532908 VD: VDInit finished with VINF_SUCCESS
+00:00:24.570095 DrvVD: Flushes will be ignored
+00:00:24.570105 DrvVD: Async flushes will be passed to the disk
+00:00:24.572633 AIOMgr: Endpoint for file 'D:\angrybird\Study\Embedded\M3-LINE\Raspbian\Raspbian\Raspbian.vdi' (flags 000c0723) created successfully
+00:00:24.618181 VD: Opening the disk took 46039291 ns
+00:00:24.618279 AHCI: LUN#0: disk, PCHS=16383/16/63, total number of sectors 16777216
+00:00:24.618528 AHCI#0: Reset the HBA
+00:00:24.618537 VD#0: Cancelling all active requests
+00:00:24.622526 PIIX3 ATA: LUN#0: no unit
+00:00:24.622541 PIIX3 ATA: LUN#1: no unit
+00:00:24.622604 DrvVD: Flushes will be ignored
+00:00:24.622611 DrvVD: Async flushes will be passed to the disk
+00:00:24.622672 PIIX3 ATA: LUN#2: CD/DVD, total number of sectors 0, passthrough disabled
+00:00:24.622742 PIIX3 ATA: LUN#3: no unit
+00:00:24.622785 PIIX3 ATA: Ctl#1: finished processing RESET
+00:00:24.622799 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:24.622970 E1000#0: Chip=82540EM LinkUpDelay=3000ms EthernetCRC=on GSO=enabled Itr=disabled ItrRx=enabled TID=disabled R0=enabled RC=disabled
+00:00:24.640361 NAT: Guest address guess set to 10.0.2.15 by initialization
+00:00:24.672043 NAT: DNS#0: 203.158.4.46
+00:00:24.672060 NAT: DNS#1: 203.158.4.45
+00:00:24.672842 AC97: Using codec 'AD1980'
+00:00:24.751083 Audio: Found 6 devices for driver 'WasAPI'
+00:00:24.751098 Audio: Device 'Speakers (3- High Definition Audio Device)':
+00:00:24.751099 Audio:   ID              = {0.0.0.00000000}.{42493ffc-ba44-4f3d-9ba2-ee698892bc4f}
+00:00:24.751100 Audio:   Usage           = output
+00:00:24.751100 Audio:   Flags           = DEFAULT_OUT
+00:00:24.751101 Audio:   Input channels  = 0
+00:00:24.751101 Audio:   Output channels = 2
+00:00:24.751105 Audio: Device 'Speakers (3- High Definition Audio Device)':
+00:00:24.751106 Audio:   ID              = {0.0.0.00000000}.{42493ffc-ba44-4f3d-9ba2-ee698892bc4f}
+00:00:24.751106 Audio:   Usage           = output
+00:00:24.751106 Audio:   Flags           = NONE
+00:00:24.751107 Audio:   Input channels  = 0
+00:00:24.751107 Audio:   Output channels = 2
+00:00:24.751110 Audio: Device 'Microphone (e2eSoft iVCam)':
+00:00:24.751111 Audio:   ID              = {0.0.1.00000000}.{79cea905-c878-48fa-aed1-caa2b3a8195b}
+00:00:24.751111 Audio:   Usage           = input
+00:00:24.751111 Audio:   Flags           = DEFAULT_IN
+00:00:24.751112 Audio:   Input channels  = 2
+00:00:24.751112 Audio:   Output channels = 0
+00:00:24.751115 Audio: Device 'Microphone (Screaming Bee Audio)':
+00:00:24.751116 Audio:   ID              = {0.0.1.00000000}.{45fdc7ce-8081-482e-b9fc-957db51e6d43}
+00:00:24.751116 Audio:   Usage           = input
+00:00:24.751116 Audio:   Flags           = NONE
+00:00:24.751117 Audio:   Input channels  = 2
+00:00:24.751117 Audio:   Output channels = 0
+00:00:24.751120 Audio: Device 'Microphone (e2eSoft iVCam)':
+00:00:24.751120 Audio:   ID              = {0.0.1.00000000}.{79cea905-c878-48fa-aed1-caa2b3a8195b}
+00:00:24.751120 Audio:   Usage           = input
+00:00:24.751121 Audio:   Flags           = NONE
+00:00:24.751121 Audio:   Input channels  = 2
+00:00:24.751121 Audio:   Output channels = 0
+00:00:24.751124 Audio: Device 'Microphone (3- High Definition Audio Device)':
+00:00:24.751125 Audio:   ID              = {0.0.1.00000000}.{90f6bd89-d376-47d5-a61e-c4920b6cec4b}
+00:00:24.751125 Audio:   Usage           = input
+00:00:24.751125 Audio:   Flags           = NONE
+00:00:24.751126 Audio:   Input channels  = 2
+00:00:24.751126 Audio:   Output channels = 0
+00:00:24.751340 AC97: Reset
+00:00:24.751347 AC97: Mixer reset (EAID=0x809, EACS=0x9)
+00:00:24.751351 AC97: Record select to left=mic, right=mic
+00:00:24.784740 SUP: seg #0: R   0x00000000 LB 0x00001000
+00:00:24.784753 SUP: seg #1: R X 0x00001000 LB 0x00002000
+00:00:24.784757 SUP: seg #2: R   0x00003000 LB 0x00001000
+00:00:24.784761 SUP: seg #3: RW  0x00004000 LB 0x00001000
+00:00:24.784764 SUP: seg #4: R   0x00005000 LB 0x00002000
+00:00:24.784767 SUP: seg #5: RWX 0x00007000 LB 0x00001000
+00:00:24.784770 SUP: seg #6: R   0x00008000 LB 0x00002000
+00:00:24.784796 SUP: Loaded VBoxEhciR0.r0 (C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxEhciR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:24.784802 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxEhciR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:24.784879 AssertLogRel D:\tinderbox\extpacks-6.1\src\VBox\Devices\USB\DevEHCI.cpp(5040) int __cdecl ehciR3Construct(struct PDMDEVINSR3 *,int,struct CFGMNODE *): PDM_VERSION_ARE_COMPATIBLE((pDevIns)->CTX_SUFF(pHlp)->u32Version, CTX_MID(PDM_DEVHLP,_VERSION))
+00:00:24.784885 DevHlp=0xffe70291  mine=0xffe702a1
+00:00:24.784889 PDM: Failed to construct 'usb-ehci'/0! VERR_PDM_DEVHLP_VERSION_MISMATCH (-2871) - The device helper structure version has changed.
+00:00:24.784915 If you have upgraded VirtualBox recently, please make sure you have terminated all VMs and upgraded any extension packs. If this error persists, try re-installing VirtualBox.
+00:00:24.784925 VMSetError: F:\tinderbox\win-6.1\src\VBox\VMM\VMMR3\PDMDevice.cpp(474) int __cdecl pdmR3DevInit(struct VM *); rc=VERR_PDM_DEVHLP_VERSION_MISMATCH
+00:00:24.784928 VMSetError: Failed to construct device 'usb-ehci' instance #0
+00:00:24.791581 AIOMgr: Async flushes not supported
+00:00:24.793400 NAT: Zone(nm:mbuf_cluster, used:0)
+00:00:24.794566 NAT: Zone(nm:mbuf_packet, used:0)
+00:00:24.794600 NAT: Zone(nm:mbuf, used:0)
+00:00:24.795162 NAT: Zone(nm:mbuf_jumbo_pagesize, used:0)
+00:00:24.796375 NAT: Zone(nm:mbuf_jumbo_9k, used:0)
+00:00:24.796952 NAT: Zone(nm:mbuf_jumbo_16k, used:0)
+00:00:24.797469 NAT: Zone(nm:mbuf_ext_refcnt, used:0)
+00:00:24.797653 E1000#0: Interrupt attempts: 0
+00:00:24.797689 E1000#0: Interrupts raised : 0
+00:00:24.797702 E1000#0: Interrupts lowered: 0
+00:00:24.797708 E1000#0: ICR outside ISR   : 0
+00:00:24.797713 E1000#0: IMS raised ints   : 0
+00:00:24.797717 E1000#0: Interrupts skipped: 0
+00:00:24.797721 E1000#0: Masked interrupts : 0
+00:00:24.797725 E1000#0: Early interrupts  : 0
+00:00:24.797730 E1000#0: Late interrupts   : 0
+00:00:24.797734 E1000#0: Lost interrupts   : 0
+00:00:24.797738 E1000#0: Interrupts by RX  : 0
+00:00:24.797742 E1000#0: Interrupts by TX  : 0
+00:00:24.797747 E1000#0: Interrupts by ICS : 0
+00:00:24.797752 E1000#0: Interrupts by RDTR: 0
+00:00:24.797756 E1000#0: Interrupts by RDMT: 0
+00:00:24.797760 E1000#0: Interrupts by TXQE: 0
+00:00:24.797765 E1000#0: TX int delay asked: 0
+00:00:24.797769 E1000#0: TX delayed:         0
+00:00:24.797773 E1000#0: TX delay expired:   0
+00:00:24.797782 E1000#0: TX no report asked: 0
+00:00:24.797787 E1000#0: TX abs timer expd : 0
+00:00:24.797793 E1000#0: TX int timer expd : 0
+00:00:24.797799 E1000#0: RX abs timer expd : 0
+00:00:24.797803 E1000#0: RX int timer expd : 0
+00:00:24.797809 E1000#0: TX CTX descriptors: 0
+00:00:24.797814 E1000#0: TX DAT descriptors: 0
+00:00:24.797818 E1000#0: TX LEG descriptors: 0
+00:00:24.797823 E1000#0: Received frames   : 0
+00:00:24.797827 E1000#0: Transmitted frames: 0
+00:00:24.797832 E1000#0: TX frames up to 1514: 0
+00:00:24.797838 E1000#0: TX frames up to 2962: 0
+00:00:24.797842 E1000#0: TX frames up to 4410: 0
+00:00:24.797847 E1000#0: TX frames up to 5858: 0
+00:00:24.797853 E1000#0: TX frames up to 7306: 0
+00:00:24.797859 E1000#0: TX frames up to 8754: 0
+00:00:24.797864 E1000#0: TX frames up to 16384: 0
+00:00:24.797870 E1000#0: TX frames up to 32768: 0
+00:00:24.797874 E1000#0: Larger TX frames    : 0
+00:00:24.797879 E1000#0: Max TX Delay        : 0
+00:00:24.799826 GIM: KVM: Resetting MSRs
+00:00:24.803599 ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={Failed to construct device 'usb-ehci' instance #0 (VERR_PDM_DEVHLP_VERSION_MISMATCH)}, preserve=false aResultDetail=-2871
+00:00:24.803895 Console: Machine state changed to 'PoweredOff'
+00:00:24.851233 Power up failed (vrc=VERR_PDM_DEVHLP_VERSION_MISMATCH, rc=E_FAIL (0X80004005))
+00:00:25.352497 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:25.352534 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={4680b2de-8690-11e9-b83d-5719e53cf1de} aComponent={DisplayWrap} aText={The console is not powered up (Display::setVideoModeHint)}, preserve=false aResultDetail=0
+00:00:25.352711 GUI: Aborting startup due to power up progress issue detected...
